@@ -1,0 +1,5 @@
+*.fig
+*.dat
+*~
+results_mlle/
+results_transProps/

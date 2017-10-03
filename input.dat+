@@ -1,0 +1,22 @@
+n_species:  2
+
+Species:    17    18
+groups:     0      0
+oil_phase:  1.0 0
+wat_phase:  0 1.0 
+
+m12:        1.0
+
+P:          30.0e6  
+T0:         600.0
+T1:         800.0
+
+--------------------------------------------------------
+End of input file for LLE
+--------------------------------------------------------
+NOTES:
+1) water must be the last species in the system (idx 18, group 0)
+2) T0, T1 unit K, P unit Pa, m12 oil:water ratio
+--------------------------------------------------------
+
+
