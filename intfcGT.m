@@ -52,6 +52,7 @@ c0=m1/(x1'*MW)/(m1/(x1'*MW) + m2/(x2'*MW));
 display([num2str(c0) ': mixing ratio (wt) of crude vs. water is ' ...
          num2str(m12) ':1' ]);
 
+% calculte equilibriumcompositions of phases
 [x1 x2 c]=Matlab_mLLE_new(c0,P0,T,Pc,Tc,w,tk,x01,x02);
 
 [v1]=Matlab_volume(P0,T,Pc,Tc,w,tk,x1);
